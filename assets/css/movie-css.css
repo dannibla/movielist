@@ -1,0 +1,164 @@
+
+/*
+	movie-list by dannibla
+	movielist.github.io | @dannibla
+	Free for personal and commercial use under the MIT License Copyright (c) 2016 (movielist.github.io/license)
+*/
+
+body {
+    padding-top: 0px;
+	background-color:#000000;
+}
+
+.portfolio-item {
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.category {
+	text-align:center;
+	padding:4px 0px;
+}
+
+.movie-category, .movie-menu {
+	color:#9d9d9d;
+	font-size:18px;
+	font-family: sans-serif;
+	cursor:pointer;
+}
+
+.search-menu {
+	text-align:center;
+	padding:10px;
+}
+.movie-category:hover {
+	color:#ffffff;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.dannibla .nav,
+.dannibla .collapse,
+.dannibla .dropup,
+.dannibla .dropdown {
+	position: static;
+}
+
+.dannibla .container {
+	position: relative;
+}
+
+.dannibla .dropdown-menu {
+	left: auto;
+}
+
+.dannibla .dannibla-content {
+	padding: 20px 30px;
+}
+.dannibla .dropdown.dannibla-fw .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.92);
+}
+
+.dropdown-search-menu {
+	background-color: #000000;
+} 
+  
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.modal-backdrop {
+    background-color: black;
+}
+
+.modal-footer {
+	background-color: black;	
+}
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    left: auto;
+    right: auto;
+    width: 920px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+  
+.modal-content { 
+	padding:0px 24px;
+	height:500px;
+	overflow:auto;
+	background-color:black;
+	color:white;
+	border-radius: 0px;
+	border: 1px solid black;
+}
+
+.modal-content::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+.modal-content::-webkit-scrollbar, body::-webkit-scrollbar {
+	width: 12px;
+	background-color: #000000;
+}
+
+.modal-content::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(255, 255, 255, 0.45);
+}
+
+.modal-footer {
+	margin-top: -1px;
+	border-top: none;
+}
+
+
+.form-control {
+	width:320px !important;
+
+
+}
+h1 {
+	font-size:26px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h3 {
+	display:none;	
+}
+
+td {
+	padding:18px 24px 0px 0px;
+}
+
+.modal-dialog .modal-content a{
+           color: transparent;
+		   pointer-events:none;
+}
+
+.modal-dialog .modal-content a::selection{
+           color: transparent;
+		   pointer-events:none;
+}
+
+.search-nav-menu {
+	padding:0px 14px 0px 14px;
+}
+
+.search-nav-menu-last {
+	padding:0px 120px 0px 14px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hollywood Movie</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/movie-css.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<body class="animated fadeIn">
+	<nav class="dannibla navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">  
+		<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">Hollywood Movie</a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav navbar-right">
+			   <li id="search-input">
+					<div class="navbar-form form-group" id="search-form">
+					  <input id="searchMovies" name="searchMovies" class="form-control" autocorrect="off" placeholder="Search by Movie names / Movie Year ">
+					</div>
+			   </li>
+			   <li id="search-icon" class="search-nav-menu">
+				 <a href="#" id="searching" class="dropdown-toggle movie-menu" data-toggle="dropdown">Search</a>
+			   </li>
+			   <li class="search-nav-menu"><a class="movie-category">All Movies</a></li>
+			   <li class="search-nav-menu-last dropdown dannibla-fw">
+				 <a href="#" class="dropdown-toggle movie-menu" data-toggle="dropdown">Genres</a>
+				 <ul class="dropdown-menu animated slideInDown">
+				   <li>
+					<div class="dannibla-content">
+					<div class="col-md-1"></div>
+					 <div class="col-md-10">
+					  <div class="row"> 
+						<div class="category col-md-3"><a class="movie-category">Thriller</a></div>
+						<div class="category col-md-3"><a class="movie-category">Horror</a></div>
+						<div class="category col-md-3"><a class="movie-category">Comedy</a></div>
+						<div class="category col-md-3"><a class="movie-category">Fantasy</a></div>
+						<div class="category col-md-3"><a class="movie-category">Drama</a></div>
+						<div class="category col-md-3"><a class="movie-category">Adventure</a></div>
+						<div class="category col-md-3"><a class="movie-category">Music</a></div>
+						<div class="category col-md-3"><a class="movie-category">Biography</a></div>
+						<div class="category col-md-3"><a class="movie-category">Romance</a></div>
+						<div class="category col-md-3"><a class="movie-category">Action</a></div>
+						<div class="category col-md-3"><a class="movie-category">War</a></div>
+						<div class="category col-md-3"><a class="movie-category">Family</a></div>
+						<div class="category col-md-3"><a class="movie-category">History</a></div>
+						<div class="category col-md-3"><a class="movie-category">Crime</a></div>
+						<div class="category col-md-3"><a class="movie-category">Documentary</a></div>
+						<div class="category col-md-3"><a class="movie-category">Sport</a></div>
+						<div class="category col-md-3"><a class="movie-category">Mystery</a></div>
+						<div class="category col-md-3"><a class="movie-category">Science Fiction</a></div>
+						<div class="category col-md-3"><a class="movie-category">Reality TV</a></div>
+						<div class="category col-md-3"><a class="movie-category">Film Noir</a></div>
+						<div class="category col-md-3"><a class="movie-category">Animation</a></div>
+						<div class="category col-md-3"><a class="movie-category">Short</a></div>
+						<div class="category col-md-3"><a class="movie-category">Western</a></div>
+						<div class="category col-md-3"><a class="movie-category">Foreign</a></div>
+						<div class="category col-md-3"><a class="movie-category">History</a></div>
+					  </div>
+					 </div>
+					<div class="col-md-1"></div>
+					</div>
+				   </li>
+				 </ul>
+			   </li>
+			  </ul>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+    <!-- Page Content -->
+    <div class="container">
+		<div style="height:50px;">
+		</div>
+        <!-- Projects Row -->
+		<div id="Image-Body" class="row">
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog animated zoomIn" role="document">
+			<div class="modal-content">
+			  <div class="modal-body"></div>
+			</div>	
+		  </div> 
+		</div>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Custom JavaScript -->
+	<script src="assets/js/movie-js.js"></script>
+
+</body>
+
+</html>
